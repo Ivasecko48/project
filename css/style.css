@@ -53,7 +53,8 @@ body {
     font-size: 24vh;
     font-weight: 400;
     text-align: left;
-    margin: 0;
+    margin-top: -69vh;
+    margin-bottom: -2vh;
 }
 .hero p {
     font-size: 24px;
