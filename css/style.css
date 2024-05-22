@@ -158,17 +158,15 @@ body {
 }
 .frame{
     display:flex;
-    max-width: 1180px;
     text-align: left;
     margin: 10% 5%;
     padding: 0 auto;
+    justify-content: space-between;
 }
 .main-content .frame section{
-    width: 560px;
+    width: 569px;
 }
-section {
-    margin: 10% 0 20px;
-}
+
 section h2 {
     font-size: 48px;
     color: #3C654B;
@@ -195,10 +193,31 @@ section button{
     box-shadow: 0 6px 12px rgb(0, 0, 0, 15);
 }
 
+.main-content .frame .icons{
+   padding: 6% 20px;
+   width: 400px;
+}
 
-.grid{
+.icons ul{
+    list-style: none;
+}
+
+.icons li{
+    display:flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0;
+}
+.icons i{
+    font-size: 24px;
+    margin-right: 14px;
+}
+
+.Bentobox{
     display:grid;
-    width: 200px;
+    gap:24px;
 }
 .cards {
     display: flex;
