@@ -138,18 +138,17 @@ body {
 }
 
 .search-bar button{
-    vertical-align: ;
-    width: 152px;
+
+    background-color: #22222284; 
+    color: #ffff;
     border: none;
-    padding: 0;
-    margin: 34px;
+    padding: 18px 76px;
+    margin: 10% 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
-    background-color: #22222284;
-    color: #ffff;/*  */
-    text-align: center;
-}
+    line-height: 10px;
+} 
 
 .main-content {
     padding: 40px 20px;
