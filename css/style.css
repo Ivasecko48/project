@@ -33,20 +33,14 @@ body {
     linear-gradient(to top right, rgba(255, 255, 255, 0.293), rgba(255, 255, 255, 0)),
     url('/images/hero.jpeg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: cover;
     transform: scaleX(-1);
     z-index: -1; 
     pointer-events: none;
 }
 .hero .logo{
-    font-size:22px;
-    padding: 0 50px;
-}
-.hero nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ebe4e4;
+    padding: 0;
+    margin: 0;
 }
 
 .hero h1 {
@@ -74,6 +68,12 @@ body {
     justify-content: space-between;
     width: 100%;
     padding: 15px 20px;
+}
+
+.hero nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ebe4e4;
 }
 
 .navbar a{
@@ -149,31 +149,52 @@ body {
     cursor: pointer;
     border-radius: 4px;
     line-height: 10px;
+    box-shadow: 0 6px 12px rgb(white, white, white, 15);
 } 
 
 .main-content {
     padding: 40px 20px;
     margin: 40px 20px;
-    display: grid;
+}
+.frame{
+    display:flex;
+    max-width: 1180px;
+    text-align: left;
+    margin: 10% 5%;
+    padding: 0 auto;
+}
+.main-content .frame section{
+    width: 560px;
 }
 section {
     margin: 10% 0 20px;
 }
 section h2 {
-    font-size: 36px;
-    color: #006400;
+    font-size: 48px;
+    color: #3C654B;
+    font-weight: 700;
+    line-height: 57.6px;
+    padding: 20px 0;
 }
 section p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 30px;
     color: #333;
+    padding: 24px 0;
 }
 
-.frame{
-    max-width: 1180px;
-    text-align: left;
-    margin:0 auto;
-    padding: 0 3rem;
+section button{
+    background-color: #222222; 
+    color: #ffff;
+    border: none;
+    padding: 8px 32px;
+    margin: 5% 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgb(0, 0, 0, 15);
 }
+
 
 .grid{
     display:grid;
