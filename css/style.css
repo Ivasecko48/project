@@ -50,10 +50,10 @@ body {
 }
 
 .hero h1 {
-    font-size: 22vh;
+    font-size: 24vh;
     font-weight: 400;
     text-align: left;
-    margin-top: -63vh;
+    margin: 0;
 }
 .hero p {
     font-size: 24px;
@@ -102,10 +102,14 @@ body {
     color: rgb(2, 88, 2);
 }
 
+.container{
+    margin: 0 20px;
+}
+
 .hero .search-bar {
     display: flex;
     justify-content: left;
-    margin: 6vh 0;
+    margin: 12vh 0;
     height: 18px;
     width: 343px;
 }
@@ -117,19 +121,34 @@ body {
     padding: 8px 0;
 }
 .search-bar select, .search-bar button {
-    padding: 15px 10px;
-    margin: 0 4px;
-}
-
-.search-bar select{
-    width: 100%;
+    padding: 10px 20px;
     height: 44px;
     border-radius: 4px;
+}
+
+
+.search-bar select{
+    width: 95%;
     border: 1.5px solid #93979D;
     padding: 10px 16px;
-    gap: 8px;
     font-size: 16px;
+    color:#93979D;
     background-color: #fff;
+    margin: 0 10px;
+}
+
+.search-bar button{
+    vertical-align: ;
+    width: 152px;
+    border: none;
+    padding: 0;
+    margin: 34px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #22222284;
+    color: #ffff;/*  */
+    text-align: center;
 }
 
 .main-content {
