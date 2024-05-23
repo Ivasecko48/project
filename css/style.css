@@ -187,7 +187,7 @@ section p {
     padding: 24px 0;
 }
 
-section button{
+.pretrazi-button{
     background-color: #222222; 
     color: #ffff;
     border: none;
@@ -229,14 +229,29 @@ section button{
     margin: 20% 10vh;
 }
 
-.Bentobox * {
+.Bentobox > * {
     border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .bbox1 {
     grid-column: 1 / 3; 
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
-  
+  .bbox1 *{
+    background-color: rgba(175, 203, 177, 0.6);
+  border-radius: 10px;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3C654B;
+  }
 .bbox2 {
     grid-column: 3 / 4;
     overflow:hidden;
@@ -250,21 +265,108 @@ section button{
   }
 .bbox3 {
     grid-column: 4 / 7; 
-    background-color: #E9E9E1;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    min-width: 200px;
+    background-color:#E9E9E1;
+    flex:1;
+    justify-content: space-between;
+    padding: 24px;
+    width: auto;
+    color:#3C654B;
   }
   
+  .bbox3 h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+  }
+
+  .bbox3 p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#3C654B;
+  }
+  .bbox3 button{
+    color:#3C654B;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    float: right;
+    margin-top: 40px;
+  }
 .bbox4 {
     grid-column: 1 / 5; 
+    background-color: #93979d78;
   }
 .bbox5 {
     grid-column: 5 / 7; 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    background: url('/images/cards2.jpeg') no-repeat center center/cover;
+    position: relative;
+    width: 380px;
+    padding: 24px;
+    overflow: hidden;
+    color: white;
+    text-align: left;
+  }
+  .bbox5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.33);
+    backdrop-filter: blur(20px);
+    z-index: 1;
+  }
+  
+  .bbox5 h1, .bbox5 p, .bbox5 button {
+    position: relative;
+    z-index: 2;
+    margin:0;
+    padding: 6px;
+  }
+
+  .bbox5 h1 {
+    font-size: 44px;
+    line-height: 52.8px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .bbox5 p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bbox5 button {
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    padding: 12px 20px 12px 32px;
+    background-color: #3C654B;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .bbox5 button span {
+    margin-left: 20px;
+    transition: transform 0.3s;
+    font-size: 24px;
+  }
+  
+  .bbox5 button:hover span {
+    transform: translateX(5px);
   }
 
 
