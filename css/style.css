@@ -108,6 +108,20 @@ body {
     margin: 0 20px;
 }
 
+.h4-grey{
+    color:#A1A1A1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    }
+.h2-naslov{
+    color:black;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    }
+
+
 .hero .search-bar {
     display: flex;
     justify-content: left;
@@ -155,7 +169,7 @@ body {
 
 
 section{
-    margin: 8vh 20px;
+    margin: 8vh 0px;
 }
 
 .main-content {
@@ -221,12 +235,15 @@ section p {
     margin-right: 14px;
 }
 
+.Bentobox-sec{
+    padding: 200px 142px;
+    margin: 15% auto;
+}
 .Bentobox{
     display:grid;
     grid-template-columns: repeat(6, 182px);
     grid-template-rows: 272px 428px;
     grid-gap:24px;
-    margin: 20% 10vh;
 }
 
 .Bentobox > * {
@@ -369,10 +386,103 @@ section p {
     transform: translateX(5px);
   }
 
+hr{
+    color:white;
+    height: 20px;
+    margin: 0 auto;
+    width: 100vh;
+    border:none;
+}
 
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+.test-section{
+   text-align: center;
+   margin: 15% 0;
+
+}
+
+
+.testimonials{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:32px;
+    padding: 0px 6,878px 0px 0px;
+}
+
+.x-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.x-card p, span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+.racun-izrada{
+    margin: 15% 0;
+    padding: 200px 142px;
+
+}
+
+.blog-stories{
+    background-color: #121316;
+    min-height: 60vh;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 142px;
+}
+
+.blog-stories h2{
+    color:white;
+}
+
+
+
+footer {
+    color:white;
+    background-color: #121316;
+}
+
+
+.footer-heading{
+    display:flex;
+    justify-content: space-between;
+}
+
+#footer-p{ 
+padding: 10px 36px 20px 36px;
+}
+
+.footer-main-container{
+background: url('/images/Footer_Photo.png') no-repeat center center/cover;
+padding: 42px 36px 0 36px;
+border-radius: 16px;
+
+}
+
+.footer-cols-container{
+padding: 24px;
+backdrop-filter: blur(10px);
+}
+
+.footer-cols{
+    display:grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 0;
+    text-align: left;
+}
+
+footer .footer-cols ul{
+    list-style: none;
+}
+
+footer .footer-cols ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
 }
