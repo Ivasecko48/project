@@ -376,10 +376,10 @@ section p {
     text-decoration: none;
   }
   
-  .bbox5 button span {
-    margin-left: 20px;
+   button span {
+    margin-left: 10px;
     transition: transform 0.3s;
-    font-size: 24px;
+    font-size: 32px;
   }
   
   .bbox5 button:hover span {
@@ -452,19 +452,79 @@ footer {
     justify-content: space-between;
 }
 
+.footer-heading h3{
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    }
+
+.footer-heading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.broj-korisnika{
+    /* width:50%; */
+}
+
+.broj-korisnika h4{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.broj-korisnika p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#email{
+    padding:10px 16px;
+    border: 1.5px solid #93979D;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-size: 1rem;
+    background: #FFFF;
+    color:#93979D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    height: 44px;
+ }
+
+
 #footer-p{ 
 padding: 10px 36px 20px 36px;
 }
 
+.btn-block {
+    display: inline-block;
+    padding: 8px 32px;
+    background:#3C654B;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 44x;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+    border:none;
+ }
+ 
 .footer-main-container{
 background: url('/images/Footer_Photo.png') no-repeat center center/cover;
 padding: 42px 36px 0 36px;
 border-radius: 16px;
-
 }
+
 
 .footer-cols-container{
 padding: 24px;
+margin-top: 20%;
 backdrop-filter: blur(10px);
 }
 
