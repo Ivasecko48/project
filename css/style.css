@@ -449,8 +449,8 @@ hr{
 
 
 .racun-izrada{
-    max-width: 1200px;
-    margin: 15% 0;
+    max-width: 1440px;
+    margin: 10% 0 20px 0;
     padding: 200px 142px;
 
 }
@@ -468,12 +468,12 @@ hr{
 
 .cards-container {
     display: flex;
-    gap: 10px;
+    gap: 24px;
     margin-bottom: 30px;
 }
 
 .main-card, .side-card {
-    background-color: #e9e9e1;
+    background-color: #E9E9E1;
     flex-grow: 1;
     border: 1px solid #707070;
     border-radius: 16px;
@@ -508,11 +508,11 @@ textarea {
 }
 
 .side-card-1 {
-    background-color: #b0c49b;
+    background-color: #A3B18A;
 }
 
 .side-card-2 {
-    background-color: #6b8f71;
+    background-color: #588157;
 }
 
 .scroll-indicator-container {
