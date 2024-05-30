@@ -41,7 +41,7 @@ body {
 }
 .hero .logo{
     padding: 0;
-    margin: 0;
+    margin-right: -20%;
 }
 
 .hero h1 {
@@ -746,4 +746,48 @@ footer .footer-cols ul li:first-child{
     padding-bottom: 0.5rem;
     border-bottom: #444 solid 1px;
     margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .navbar button{
+        padding: 12px 20px;
+        margin: 0 ;
+        text-align: end;
+    }
+
+    nav{
+        margin: 0 -40px;
+    }
+    .hero h1{
+        font-size: 16vh;
+        margin-top: -64vh;
+    }
+
+    .frame{
+        margin: 20% 20px;
+        padding: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .icons{
+        margin-top: 80px;
+    }
+
+    .Bentobox-sec{
+        padding: 140px 30px;
+        margin: 10% 10px;
+    }
+    .Bentobox{
+        display:grid;
+        grid-template-columns: repeat(6, 152px);
+        grid-template-rows: 272px 428px;
+        grid-gap: 18px;
+  }
+}
+  
+@media screen and (max-width: 1200px){
+    body{
+        display:none;
+    }
 }
